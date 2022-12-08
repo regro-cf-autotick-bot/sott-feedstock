@@ -1,5 +1,5 @@
 {% set name = "sott" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sott-{{ version }}.tar.gz
-  sha256: 234aebe045e5633dc5f3614ea4633c7d17ecaacc4c5a3b61410f8022a657025a
+  sha256: 245fcfc475c3e25431f9cfde1941423f1b134f4d838e36d97e9a7fa34a41f997
 
 build:
   noarch: python
